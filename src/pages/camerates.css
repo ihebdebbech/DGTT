@@ -1,0 +1,68 @@
+body.scanner-active {
+    --background: transparent;
+    --ion-background-color: transparent;
+  }
+  .line1 {
+    
+    position: relative;
+    border-bottom: 2px solid #c7c7c7; /* Change the color and thickness as needed */
+    
+    width: 250px;
+   left:60px;
+     /* Adjust the margin to control the space around the line */
+  }
+  .flex-container {
+    position: relative;
+    display: flex;
+   
+    height: 65px;
+}
+  
+  .flex-item {
+    position: relative;
+    
+    margin-top: 22px;
+    width:190px;
+    
+  left: 30px;
+    
+  }
+  .flex-item1 {
+    position: relative;
+    margin-top: 22px;
+  left:-10px;
+    
+  
+    
+  }
+  .flex-container:hover {
+background-color: rgb(30, 98, 52);
+
+  }
+  .flex-container:hover p {
+   font-size: 21px;
+    color: rgb(206, 248, 255);
+      }
+      p{
+        all:unset;
+        font-size: 19px;
+        color: rgb(2, 22, 41);
+         
+         font-family:    'Franklin Gothic Medium',Arial,sans-serif;
+       
+       }
+  .scanbutton{
+    font-family: 'Franklin Gothic Medium',  Arial, sans-serif;
+
+    --ion-color-primary: rgb(44, 169, 79);
+    --border-radius: 40px;
+width: 200px;
+height: 60px;
+position: relative;
+top:40px;
+font-size: 22px;
+left:97px;
+--box-shadow:var(--box-shadow);
+  }
+
+ 

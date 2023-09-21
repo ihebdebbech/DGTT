@@ -1,0 +1,136 @@
+.formulaire{
+    
+    position:relative;
+    left: 80px;
+    top:180px;
+   
+  
+}
+h1{
+    all:unset;
+    position: relative;
+    color: #183252;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 27px;
+}
+.inputform{
+  position: inherit;
+left: -8px;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 265px;
+    
+}
+.inputbutton{
+        
+        --ion-color-primary: #2ea562;
+        --border-radius: 40px;
+    width: 270px;
+    height: 45px;
+    position: relative;
+    margin-top: 30px;
+    font-size: 20px;
+    top:250px;
+    left:65px;
+    --box-shadow:var(--box-shadow);
+   
+}
+.inputbuttonlogin{
+        
+  --ion-color-primary: #2ea562;
+  --border-radius: 20px;
+width: 230px;
+height: 35px;
+position: relative;
+margin-top: 30px;
+font-size: 20px;
+
+left:10px;
+--box-shadow:var(--box-shadow);
+
+}
+
+.inputform:hover{  --ion-border-color: #359174;
+  --ion-border-width: 2px;
+
+  }
+.formulaire form{padding: 40px;
+}
+.logoicon{
+    position: relative;
+    width: 75%;
+    top:100px;
+    left:50px;
+
+
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    display:inline;
+text-align: center;
+
+color: rgb(15, 40, 63);
+}
+ion-input {
+    font-size: 20px;
+    position: relative;
+    left:-50px;
+    text-align: center;
+  
+    /* Background color */
+    background-color: #cce7fd;
+   
+
+  border-radius: 7px;
+  border-color: #2ea562;
+  
+border-top-right-radius: 30px;
+border-bottom-left-radius: 30px;
+    /* Text color */
+    
+    
+}
+
+.line {
+    position: relative;
+    border-bottom: 1px solid #b8b7b7; /* Change the color and thickness as needed */
+    margin: 13px;
+    width: 200px;
+    left:20px; /* Adjust the margin to control the space around the line */
+  }
+  .verificationmodal{
+    position: relative;
+   border-radius: 15px;
+   border: 1px solid #95cbac;
+    width:300px;
+    height:150px;
+    left:50px;
+    top:350px;
+    background-color: rgb(250, 250, 250);
+    
+  }
+  .modalbutton{
+    color: white;
+   border-radius: 15px;
+background-color: #51b062;
+position: relative;
+width: 80px;
+height: 22px;
+font-size: 16px;
+margin-left: 20px;
+
+
+  }
+  .divmodal1{
+     display: flex;
+    flex-direction: column;
+       align-items: center;
+        justify-content: center;
+         height: 100%;
+  }
+  .divmodal2{
+    display: flex; 
+    align-items: center;
+  }
+ 

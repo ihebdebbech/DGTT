@@ -1,0 +1,6 @@
+{ 
+      "realm": "DGTT",
+"auth-server-url": "https://88a8-196-234-243-219.ngrok-free.app/",
+"responseType":"token",
+"resource": "1"
+}
